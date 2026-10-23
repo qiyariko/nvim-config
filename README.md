@@ -28,7 +28,7 @@ Clone the repo:
 
 ```shell
 
-git clone https://github.com/mlndcontrol/nvim-config ~/.config/nvim
+git clone https://github.com/qiyariko/nvim-config ~/.config/nvim
 
 ```
 
