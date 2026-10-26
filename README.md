@@ -12,9 +12,11 @@ base packages:
 
 * xclip
 
+* zig
+
 lsp packages:
 
-* rust-analyzer & rust-src
+* zls
 
 * lua-language-server
 
