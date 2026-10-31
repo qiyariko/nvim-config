@@ -26,6 +26,7 @@ return {
     vim.lsp.config( "go_ls", {
         cmd = {"/bin/gopls" },
         filetypes = { "go", "gomod", "gowork" },
+    }),
 
     vim.lsp.enable( "lua_ls", "bash_ls", "clangd", "zls", "go_ls" )
 
