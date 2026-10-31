@@ -21,10 +21,13 @@ return {
         cmd = { "/bin/zls" },
         filetypes = { "zig", "zir" },
         root_markers = { "zls.json", "build.zig", ".git" },
-    }), 
+    }),
 
+    vim.lsp.config( "go_ls", {
+        cmd = {"/bin/gopls" },
+        filetypes = { "go", "gomod", "gowork" },
 
-    vim.lsp.enable( "lua_ls", "bash_ls", "clangd", "zls" )
+    vim.lsp.enable( "lua_ls", "bash_ls", "clangd", "zls", "go_ls" )
 
 }
 

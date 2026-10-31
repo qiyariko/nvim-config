@@ -8,13 +8,19 @@ base packages:
 
 * tree-sitter-cli
 
-* gcc (for treesitter-cli)
+* gcc 
 
 * xclip
 
 * zig
 
+* go
+
+* lua
+
 lsp packages:
+
+* gopls
 
 * zls
 
