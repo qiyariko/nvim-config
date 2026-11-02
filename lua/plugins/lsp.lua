@@ -13,7 +13,7 @@ return {
 
     vim.lsp.config( "clangd", {
         cmd = { "/bin/clangd", "--header-insertion=never" },
-        filetypes = { "c", "header" },
+        filetypes = { "c", "header", "cpp" },
         root_markers = { { ".clangd", ".clang-tidy", ".clang-format", "compile_commands.json", "compile_flags.txt", "configure.ac", ".git" } },
     }),
 
@@ -23,12 +23,7 @@ return {
         root_markers = { "zls.json", "build.zig", ".git" },
     }),
 
-    vim.lsp.config( "go_ls", {
-        cmd = {"/bin/gopls" },
-        filetypes = { "go", "gomod", "gowork" },
-    }),
-
-    vim.lsp.enable( "lua_ls", "bash_ls", "clangd", "zls", "go_ls" )
+    vim.lsp.enable( "lua_ls", "bash_ls", "clangd", "zls")
 
 }
 

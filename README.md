@@ -14,13 +14,9 @@ base packages:
 
 * zig
 
-* go
-
 * lua
 
 lsp packages:
-
-* gopls
 
 * zls
 
