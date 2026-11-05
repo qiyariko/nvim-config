@@ -1,4 +1,5 @@
 require("config.lazy")
+require("mappings")
 
 vim.cmd( "syntax off" )
 
@@ -9,4 +10,6 @@ vim.opt.expandtab = true
 vim.opt.number = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.cursorline = true
+
+vim.filetype.add({ extension = { h = "c" } })
 

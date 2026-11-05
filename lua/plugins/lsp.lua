@@ -13,7 +13,7 @@ return {
 
     vim.lsp.config( "clangd", {
         cmd = { "/bin/clangd", "--header-insertion=never" },
-        filetypes = { "c", "header", "cpp" },
+        filetypes = { "c", "header" },
         root_markers = { { ".clangd", ".clang-tidy", ".clang-format", "compile_commands.json", "compile_flags.txt", "configure.ac", ".git" } },
     }),
 
