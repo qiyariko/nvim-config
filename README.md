@@ -6,8 +6,6 @@ base packages:
 
 * neovim
 
-* tree-sitter-cli
-
 * gcc 
 
 * xclip
@@ -25,6 +23,16 @@ lsp packages:
 * bash-language-sever
 
 * clangd 
+
+packages for treesitter:
+
+* tree-sitter-cli
+
+packages for telescope:
+
+* ripgrep 
+
+* fd 
 
 #### Getting Started
 
