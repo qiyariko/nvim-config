@@ -1,5 +1,6 @@
 require("config.lazy")
 require("mappings")
+require("mappings_telescope")
 
 vim.cmd( "syntax off" )
 
